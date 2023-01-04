@@ -1,0 +1,124 @@
+todo = "Change Review Put function from HTTP_201_CREATED to HTTP_200_OK",
+todo = "Test the Payment View",
+
+PayStack Successful Verification = {
+  "status": true,
+  "message": "Verification successful",
+  "data": {
+    "id": 1207355991,
+    "domain": "test",
+    "status": "success",
+    "reference": "PItcHd23CVCp5uguFNzJJKMt9adLPOy0B_Nr27iQNuiAqiZdtFprwrz6hvun0SI9JwU",
+    "amount": 800000,
+    "message": null,
+    "gateway_response": "Successful",
+    "paid_at": "2021-07-07T12:20:13.000Z",
+    "created_at": "2021-07-07T12:19:15.000Z",
+    "channel": "card",
+    "currency": "NGN",
+    "ip_address": "197.210.28.164",
+    "metadata": "",
+    "log": {
+      "start_time": 1625660399,
+      "time_spent": 14,
+      "attempts": 1,
+      "errors": 0,
+      "success": true,
+      "mobile": false,
+      "input": [],
+      "history": [
+        {
+          "type": "action",
+          "message": "Attempted to pay with card",
+          "time": 10
+        },
+        {
+          "type": "success",
+          "message": "Successfully paid with card",
+          "time": 14
+        }
+      ]
+    },
+    "fees": 22000,
+    "fees_split": null,
+    "authorization": {
+      "authorization_code": "AUTH_9stb1djcek",
+      "bin": "408408",
+      "last4": "4081",
+      "exp_month": "12",
+      "exp_year": "2030",
+      "channel": "card",
+      "card_type": "visa ",
+      "bank": "TEST BANK",
+      "country_code": "NG",
+      "brand": "visa",
+      "reusable": true,
+      "signature": "SIG_qSGrTQX8Ncpb4FupIcco",
+      "account_name": null
+    },
+    "customer": {
+      "id": 49126771,
+      "first_name": null,
+      "last_name": null,
+      "email": "admin@example.com",
+      "customer_code": "CUS_u42n76hin554mis",
+      "phone": null,
+      "metadata": null,
+      "risk_action": "default",
+      "international_format_phone": null
+    },
+    "plan": null,
+    "split": {},
+    "order_id": null,
+    "paidAt": "2021-07-07T12:20:13.000Z",
+    "createdAt": "2021-07-07T12:19:15.000Z",
+    "requested_amount": 800000,
+    "pos_transaction_data": null,
+    "source": null,
+    "transaction_date": "2021-07-07T12:19:15.000Z",
+    "plan_object": {},
+    "subaccount": {}
+  }
+}
+
+{
+  "billing_address" : {
+    "address1": "This is Billing Address 1",
+    "address2": "This is Billing Address 2",
+    "country": "NG",
+    "state": "Billing State",
+    "city": "Billing City",
+    "zipcode": "Billing Zippy"
+  },
+  "shipping_address" : {
+    "address1": "This is Shipping Address 1",
+    "address2": "This is Shipping Address 2",
+    "country": "NG",
+    "state": "Shipping State",
+    "city": "Shipping City",
+    "zipcode": "Shipping Zippy"
+  },
+  "same_address": False,
+  "save_info": False
+}
+
+{
+  "billing_address" : {
+    "address1": None,
+    "address2": None,
+    "country": None,
+    "state": None,
+    "city": None,
+    "zipcode": None
+  },
+  "shipping_address" : {
+    "address1": "This is Shipping Address 1",
+    "address2": "This is Shipping Address 2",
+    "country": "NG",
+    "state": "Shipping State",
+    "city": "Shipping City",
+    "zipcode": "Shipping Zippy"
+  },
+  "same_address": True,
+  "save_info": False
+}
